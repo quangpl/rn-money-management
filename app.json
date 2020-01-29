@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "money",
+    "slug": "money",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/money.png",
+    "splash": {
+      "image": "./assets/images/splash-2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#33aa39"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.quangpl.moneymanager"
+    }
+  }
+}
